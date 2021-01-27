@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bed150bd-d9ab-4ad7-8d2d-6dacf2576767" name="Default Changelist" comment="" />
+    <list default="true" id="bed150bd-d9ab-4ad7-8d2d-6dacf2576767" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ood/interview/cards/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ood/interview/cards/interfaces/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ood/interview/cards/CardValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ood/interview/cards/interfaces/CardValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ood/interview/cards/CardValueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ood/interview/cards/CardValueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ood/interview/cards/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ood/interview/cards/interfaces/Deck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ood/interview/cards/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ood/interview/cards/interfaces/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ood/interview/cards/HumanPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ood/interview/cards/HumanPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ood/interview/cards/HumanPlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ood/interview/cards/HumanPlayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ood/interview/cards/InterviewGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ood/interview/cards/InterviewGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ood/interview/cards/InterviewGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ood/interview/cards/InterviewGameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ood/interview/cards/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ood/interview/cards/interfaces/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ood/interview/cards/RegularCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ood/interview/cards/interfaces/RegularCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ood/interview/cards/RegularPlayingCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ood/interview/cards/RegularPlayingCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ood/interview/cards/RegularPlayingCardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ood/interview/cards/RegularPlayingCardTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ood/interview/cards/SingleDeck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ood/interview/cards/SingleDeck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ood/interview/cards/SingleDeckTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ood/interview/cards/SingleDeckTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ood/interview/cards/Suits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ood/interview/cards/interfaces/Suits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ood/interview/cards/SuitsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ood/interview/cards/SuitsTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,10 +40,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1nLrIoFybPBVAy2KBpj38TN7EMq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -35,6 +59,7 @@
     <property name="Repository.Attach.JavaDocs" value="true" />
     <property name="Repository.Attach.Sources" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -46,6 +71,9 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="ood.interview.cards" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ood.interview.cards.interfaces" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -56,7 +84,7 @@
       <module name="PlayingCards" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ood.interview.cards.*" />
+          <option name="PATTERN" value="ood.interview.cards.interfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,26 +120,50 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="229" y="78" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1611691559280" />
-    <state x="605" y="138" key="#com.intellij.ide.util.MemberChooser" timestamp="1611693019806">
+    <state x="605" y="138" key="#com.intellij.ide.util.MemberChooser" timestamp="1611703239937">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="605" y="138" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1611693019806" />
-    <state width="1339" height="199" key="GridCell.Tab.0.bottom" timestamp="1611695316413">
+    <state x="605" y="138" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1611703239937" />
+    <state x="505" y="204" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1611778002544">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1339" height="199" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1611695316413" />
-    <state width="1339" height="199" key="GridCell.Tab.0.center" timestamp="1611695316413">
+    <state x="505" y="204" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1600.860@0.0.1600.860" timestamp="1611778002544" />
+    <state x="571" y="308" width="407" height="242" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1611778007037">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1339" height="199" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1611695316413" />
-    <state width="1339" height="199" key="GridCell.Tab.0.left" timestamp="1611695316412">
+    <state x="571" y="308" width="407" height="242" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1600.860@0.0.1600.860" timestamp="1611778007037" />
+    <state width="1339" height="198" key="GridCell.Tab.0.bottom" timestamp="1611767873377">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1339" height="199" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1611695316412" />
-    <state width="1339" height="199" key="GridCell.Tab.0.right" timestamp="1611695316413">
+    <state width="1339" height="198" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1611767873377" />
+    <state width="1339" height="198" key="GridCell.Tab.0.center" timestamp="1611767873377">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1339" height="199" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1611695316413" />
+    <state width="1339" height="198" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1611767873377" />
+    <state width="1339" height="198" key="GridCell.Tab.0.left" timestamp="1611767873377">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1339" height="198" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1611767873377" />
+    <state width="1339" height="198" key="GridCell.Tab.0.right" timestamp="1611767873377">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1339" height="198" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1611767873377" />
+    <state width="1339" height="208" key="GridCell.Tab.1.bottom" timestamp="1611767704200">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1339" height="208" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1611767704200" />
+    <state width="1339" height="208" key="GridCell.Tab.1.center" timestamp="1611767704200">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1339" height="208" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1611767704200" />
+    <state width="1339" height="208" key="GridCell.Tab.1.left" timestamp="1611767704200">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1339" height="208" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1611767704200" />
+    <state width="1339" height="208" key="GridCell.Tab.1.right" timestamp="1611767704200">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1339" height="208" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1611767704200" />
     <state x="255" y="0" key="SettingsEditor" timestamp="1611633028728">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -128,6 +180,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="546" y="126" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1600.860@0.0.1600.860" timestamp="1611634111598" />
+    <state x="912" y="56" width="606" height="804" key="find.popup" timestamp="1611768833572">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="912" y="56" width="606" height="804" key="find.popup/0.0.1600.860@0.0.1600.860" timestamp="1611768833572" />
     <state x="157" y="44" key="new project wizard" timestamp="1611633182058">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -140,5 +196,29 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="463" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1611181262122" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ood/interview/cards/InterviewGame.java</url>
+          <line>130</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/ood/interview/cards/SingleDeck.java</url>
+          <line>104</line>
+          <properties class="ood.interview.cards.SingleDeck" method="sort">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="suit" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

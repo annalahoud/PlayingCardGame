@@ -1,8 +1,8 @@
-package ood.interview.cards;
+package test.ood.interview.cards;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class SingleDeckTest {
+class InterviewGameTest {
 
     @org.junit.jupiter.api.BeforeEach
     void setUp() {
@@ -13,26 +13,34 @@ class SingleDeckTest {
     }
 
     @org.junit.jupiter.api.Test
-    void shuffle() {
+    void startGame() {
     }
 
     @org.junit.jupiter.api.Test
-    void drawCard() {
+    void endGame() {
     }
 
     @org.junit.jupiter.api.Test
-    void returnCard() {
+    void addPlayer() {
     }
 
     @org.junit.jupiter.api.Test
-    void returnCards() {
+    void removePlayer() {
     }
 
     @org.junit.jupiter.api.Test
-    void countRemaining() {
+    void returnHand() {
     }
 
     @org.junit.jupiter.api.Test
-    void countMissing() {
+    void addDeck() {
+    }
+
+    @org.junit.jupiter.api.Test
+    void removeDeck() {
+    }
+
+    @org.junit.jupiter.api.Test
+    void declareWinner() {
     }
 }

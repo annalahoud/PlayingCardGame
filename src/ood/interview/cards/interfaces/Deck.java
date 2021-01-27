@@ -1,4 +1,6 @@
-package ood.interview.cards;
+package ood.interview.cards.interfaces;
+
+import ood.interview.cards.interfaces.Card;
 
 import java.util.Collection;
 

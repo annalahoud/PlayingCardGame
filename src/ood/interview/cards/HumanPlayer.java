@@ -1,5 +1,9 @@
 package ood.interview.cards;
 
+import ood.interview.cards.interfaces.Card;
+import ood.interview.cards.interfaces.Game;
+import ood.interview.cards.interfaces.Player;
+
 import java.util.ArrayList;
 import java.util.List;
 

@@ -1,4 +1,6 @@
-package ood.interview.cards;
+package ood.interview.cards.interfaces;
+
+import ood.interview.cards.interfaces.Card;
 
 /**
  * This is the interface for a standard playing card. Contains face values Ace, 2-10, Jack, Queen, King

@@ -1,5 +1,9 @@
 package ood.interview.cards;
 
+import ood.interview.cards.interfaces.CardValue;
+import ood.interview.cards.interfaces.RegularCard;
+import ood.interview.cards.interfaces.Suits;
+
 /**
  * Regular playing card imlementation class.
  *

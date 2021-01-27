@@ -1,4 +1,4 @@
-package ood.interview.cards;
+package ood.interview.cards.interfaces;
 
 public enum CardValue {
 
@@ -25,6 +25,7 @@ public enum CardValue {
         this.faceValue = faceValue;
         this.display = display;
     };
+
     public char getDisplay() { return display; }
     public int getFaceValue() { return faceValue; }
     public int getCardValue() { return cardValue; }

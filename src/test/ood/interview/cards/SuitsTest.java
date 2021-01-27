@@ -1,8 +1,8 @@
-package ood.interview.cards;
+package test.ood.interview.cards;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class CardValueTest {
+class SuitsTest {
 
     @org.junit.jupiter.api.BeforeEach
     void setUp() {
@@ -14,9 +14,5 @@ class CardValueTest {
 
     @org.junit.jupiter.api.Test
     void getDisplay() {
-    }
-
-    @org.junit.jupiter.api.Test
-    void getFaceValue() {
     }
 }

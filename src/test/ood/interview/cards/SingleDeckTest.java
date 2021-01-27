@@ -1,8 +1,8 @@
-package ood.interview.cards;
+package test.ood.interview.cards;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class RegularPlayingCardTest {
+class SingleDeckTest {
 
     @org.junit.jupiter.api.BeforeEach
     void setUp() {
@@ -13,18 +13,26 @@ class RegularPlayingCardTest {
     }
 
     @org.junit.jupiter.api.Test
-    void getCardValue() {
+    void shuffle() {
     }
 
     @org.junit.jupiter.api.Test
-    void getFaceValue() {
+    void drawCard() {
     }
 
     @org.junit.jupiter.api.Test
-    void getSortValue() {
+    void returnCard() {
     }
 
     @org.junit.jupiter.api.Test
-    void display() {
+    void returnCards() {
+    }
+
+    @org.junit.jupiter.api.Test
+    void countRemaining() {
+    }
+
+    @org.junit.jupiter.api.Test
+    void countMissing() {
     }
 }

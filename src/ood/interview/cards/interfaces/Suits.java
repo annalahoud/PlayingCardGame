@@ -1,4 +1,4 @@
-package ood.interview.cards;
+package ood.interview.cards.interfaces;
 
 public enum Suits {
 
@@ -9,7 +9,12 @@ public enum Suits {
 
     private final int theSuit;
     private final char display;
-    Suits(int i, char display) { this.theSuit = i; this.display = display; }
+
+    Suits(int i, char display) {
+        this.theSuit = i;
+        this.display = display;
+    }
+
     public char getDisplay() { return display; }
     public int getSuit() { return theSuit; }
 

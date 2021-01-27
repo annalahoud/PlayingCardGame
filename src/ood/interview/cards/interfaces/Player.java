@@ -1,6 +1,7 @@
-package ood.interview.cards;
+package ood.interview.cards.interfaces;
 
-import java.util.Collection;
+import ood.interview.cards.interfaces.Card;
+import ood.interview.cards.interfaces.Game;
 
 /**
  * This is the interface for a player.

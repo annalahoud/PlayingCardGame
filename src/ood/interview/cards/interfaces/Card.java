@@ -1,4 +1,4 @@
-package ood.interview.cards;
+package ood.interview.cards.interfaces;
 
 /**
  * Superclass of all types of game cards.

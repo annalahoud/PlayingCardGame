@@ -1,5 +1,10 @@
 package ood.interview.cards;
 
+import ood.interview.cards.interfaces.Card;
+import ood.interview.cards.interfaces.CardValue;
+import ood.interview.cards.interfaces.Deck;
+import ood.interview.cards.interfaces.Suits;
+
 import java.util.*;
 
 /**
