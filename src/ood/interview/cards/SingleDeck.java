@@ -98,14 +98,11 @@ public class SingleDeck implements Deck {
      */
     @Override
     public void sort(boolean sortAscending) {
-        Collections.sort(deck, new Comparator<RegularPlayingCard>() {
-            @Override
-            public int compare(RegularPlayingCard lhs, RegularPlayingCard rhs) {
-                // -1 - less than, 1 - greater than, 0 - equal, all inversed for descending
-                int lhsValue = lhs.getSortValue();
-                int rhsValue = rhs.getSortValue();
-                return (lhsValue > rhsValue) ? -1 : (lhsValue < rhsValue) ? 1 : 0;
-            }
-        });
+        if (sortAscending) {
+            Collections.sort(deck);
+        }
+        else {
+            Collections.sort(deck, Collections.reverseOrder());
+        }
     }
 }

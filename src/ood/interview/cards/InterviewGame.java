@@ -106,6 +106,7 @@ public class InterviewGame implements Game {
     }
 
     public static void main(String[] args) {
+        // Begin with a game and two players
         InterviewGame game1 = new InterviewGame();
         HumanPlayer player1 = new HumanPlayer("Player 1");
         HumanPlayer player2 = new HumanPlayer("Player 2") ;
@@ -113,19 +114,24 @@ public class InterviewGame implements Game {
         player1.joinGame(game1);
         player2.joinGame(game1);
 
-        SingleDeck deck = new SingleDeck();
-        deck.display();
-        deck.shuffle();
-        deck.display();
+        // Create a single deck of RegularPlayingCards and add to the game.
+        SingleDeck singleDeck = new SingleDeck();
 
-        System.out.println("Sorting the deck ....");
-        deck.sort(true);
-        deck.display();
+        // Show what the deck looks like before, and after, the shuffle
+        System.out.println("Show the deck before and after the shuffle.");
+        singleDeck.display();
+        singleDeck.shuffle();
+        singleDeck.display();
 
-        deck.shuffle();
-        game1.addDeck(deck);
-        deck.sort(true);
+        System.out.println("Sort the deck and show the cards.");
+        singleDeck.sort(true);
+        singleDeck.display();
 
+        System.out.println("Shuffle and display the deck.");
+        singleDeck.shuffle();
+
+        // Add the deck to the game and start the game.
+        game1.addDeck(singleDeck);
         game1.startGame();
     }
 }

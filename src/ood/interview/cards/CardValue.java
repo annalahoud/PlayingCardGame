@@ -27,7 +27,6 @@ public enum CardValue {
     };
     public char getDisplay() { return display; }
     public int getFaceValue() { return faceValue; }
-    public int getCardSortValue() { return cardValue; }
-
+    public int getCardValue() { return cardValue; }
 
 }

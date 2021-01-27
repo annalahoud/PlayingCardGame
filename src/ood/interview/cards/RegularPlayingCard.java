@@ -12,25 +12,26 @@ public class RegularPlayingCard implements RegularCard, Comparable<RegularPlayin
     private final Suits suit;
     private final CardValue cardValue;
     private final int sortValue;
+    private final int SUIT_SIZE = 13;
 
     public RegularPlayingCard(Suits suit, CardValue cardValue) {
         this.suit = suit;
         this.cardValue = cardValue;
-        this.sortValue = cardValue.getCardSortValue() * suit.getSuitSortValue();
+        this.sortValue = cardValue.getCardValue() + (suit.getSuit() * SUIT_SIZE);
     }
 
     @Override
     public int getCardValue() {
-        return cardValue.ordinal();
+        return cardValue.getCardValue();
     }
-
     @Override
     public int getFaceValue() {
         return cardValue.getFaceValue();
     }
 
     /**
-     * Get the value for the card that is equal to its ordinal card value multiplied times the suit's ordinal value.
+     * Get the sort value for the card. It is equal to its card value + (SUIT_SIZE * the suit's value).
+     * This formula results in the sort values being between 1 and DECK_SIZE.
      *
      * @return int unique sort value for this card
      * @see
@@ -86,10 +87,10 @@ public class RegularPlayingCard implements RegularCard, Comparable<RegularPlayin
      */
     @Override
     public int compareTo(RegularPlayingCard o) {
-        if (this.sortValue < o.sortValue) {
+        if (this.sortValue > o.sortValue) {
             return -1;
         }
-        else if (this.sortValue > o.sortValue) {
+        else if (this.sortValue < o.sortValue) {
             return 1;
         }
         // this last return should never happen since all the cards are unique
