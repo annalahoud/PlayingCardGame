@@ -12,7 +12,7 @@ import java.util.*;
 public class SingleDeck implements Deck {
 
     private final int DECK_SIZE = 52;
-    private List<RegularPlayingCard> deck;
+    public List<RegularPlayingCard> deck;
 
     public SingleDeck() {
         deck = new ArrayList<>(DECK_SIZE);
@@ -32,10 +32,7 @@ public class SingleDeck implements Deck {
     @Override
     public void shuffle() {
         Collections.shuffle(deck);
-        for (int i = 0; i < DECK_SIZE; i++) {
-            Card card = deck.get(i);
-            card.display();
-        }
+        display();
     }
 
     /**
@@ -105,9 +102,9 @@ public class SingleDeck implements Deck {
             @Override
             public int compare(RegularPlayingCard lhs, RegularPlayingCard rhs) {
                 // -1 - less than, 1 - greater than, 0 - equal, all inversed for descending
-                int lhsSortValue = lhs.getSortValue();
-                int rhsSortValue = rhs.getSortValue();
-                return lhsSortValue > rhsSortValue ? -1 : (lhsSortValue < rhsSortValue) ? 1 : 0;
+                int lhsValue = lhs.getSortValue();
+                int rhsValue = rhs.getSortValue();
+                return (lhsValue > rhsValue) ? -1 : (lhsValue < rhsValue) ? 1 : 0;
             }
         });
     }

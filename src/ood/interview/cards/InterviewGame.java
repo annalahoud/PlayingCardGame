@@ -2,6 +2,7 @@ package ood.interview.cards;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Collections;
 import java.util.List;
 
 /**
@@ -116,7 +117,14 @@ public class InterviewGame implements Game {
         deck.display();
         deck.shuffle();
         deck.display();
+
+        System.out.println("Sorting the deck ....");
+        deck.sort(true);
+        deck.display();
+
+        deck.shuffle();
         game1.addDeck(deck);
+        deck.sort(true);
 
         game1.startGame();
     }

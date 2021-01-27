@@ -11,5 +11,6 @@ public enum Suits {
     private final char display;
     Suits(int i, char display) { this.theSuit = i; this.display = display; }
     public char getDisplay() { return display; }
+    public int getSuitSortValue() { return theSuit; }
 
 }
