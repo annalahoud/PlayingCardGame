@@ -2,25 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bed150bd-d9ab-4ad7-8d2d-6dacf2576767" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ood/interview/cards/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ood/interview/cards/interfaces/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ood/interview/cards/CardValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ood/interview/cards/interfaces/CardValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ood/interview/cards/CardValueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ood/interview/cards/CardValueTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ood/interview/cards/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ood/interview/cards/interfaces/Deck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ood/interview/cards/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ood/interview/cards/interfaces/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ood/interview/cards/HumanPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ood/interview/cards/HumanPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ood/interview/cards/HumanPlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ood/interview/cards/HumanPlayerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ood/interview/cards/InterviewGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ood/interview/cards/InterviewGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ood/interview/cards/InterviewGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ood/interview/cards/InterviewGameTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ood/interview/cards/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ood/interview/cards/interfaces/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ood/interview/cards/RegularCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ood/interview/cards/interfaces/RegularCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ood/interview/cards/RegularPlayingCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ood/interview/cards/RegularPlayingCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ood/interview/cards/RegularPlayingCardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ood/interview/cards/RegularPlayingCardTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ood/interview/cards/SingleDeck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ood/interview/cards/SingleDeck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ood/interview/cards/SingleDeckTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ood/interview/cards/SingleDeckTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ood/interview/cards/Suits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ood/interview/cards/interfaces/Suits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ood/interview/cards/SuitsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ood/interview/cards/SuitsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlayingCards.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PlayingCards.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ood/interview/cards/HumanPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ood/interview/cards/HumanPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ood/interview/cards/InterviewGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ood/interview/cards/InterviewGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ood/interview/cards/RegularPlayingCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ood/interview/cards/RegularPlayingCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ood/interview/cards/SingleDeck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ood/interview/cards/SingleDeck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ood/interview/cards/interfaces/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ood/interview/cards/interfaces/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ood/interview/cards/interfaces/CardValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ood/interview/cards/interfaces/CardValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ood/interview/cards/interfaces/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ood/interview/cards/interfaces/Deck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ood/interview/cards/interfaces/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ood/interview/cards/interfaces/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ood/interview/cards/interfaces/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ood/interview/cards/interfaces/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ood/interview/cards/interfaces/RegularCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ood/interview/cards/interfaces/RegularCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ood/interview/cards/interfaces/Suits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ood/interview/cards/interfaces/Suits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/ood/interview/cards/CardValueTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/ood/interview/cards/HumanPlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/HumanPlayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/ood/interview/cards/InterviewGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/InterviewGameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/ood/interview/cards/RegularPlayingCardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/RegularPlayingCardTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/ood/interview/cards/SingleDeckTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/SingleDeckTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/ood/interview/cards/SuitsTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +39,15 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myFlattenPackages" value="true" />
+    <option name="myAutoScrollToSource" value="true" />
+    <option name="myElementSize" value="187" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OPEN_IN_BROWSER" value="true" />
+    <option name="OUTPUT_DIRECTORY" value="C:\Users\Owner\IdeaProjects\PlayingCards\coverage" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -43,6 +62,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
@@ -54,6 +81,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="AnalyzeApkAction.lastApkPath" value="$PROJECT_DIR$" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="true" />
     <property name="Repository.Attach.JavaDocs" value="true" />
@@ -63,9 +91,11 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -78,7 +108,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.HumanPlayerTest">
     <configuration name="InterviewGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ood.interview.cards.InterviewGame" />
       <module name="PlayingCards" />
@@ -92,8 +122,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HumanPlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PlayingCards" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.HumanPlayerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ood.interview.cards" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ood.interview.cards.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="C:\Program Files\Java\jdk1.8.0_71\jre" />
+      <option name="PACKAGE_NAME" value="ood.interview.cards" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="PARAMETERS" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.InterviewGame" />
+      <item itemvalue="JUnit.ood.interview.cards" />
+      <item itemvalue="JUnit.HumanPlayerTest" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HumanPlayerTest" />
+        <item itemvalue="JUnit.ood.interview.cards" />
         <item itemvalue="Application.InterviewGame" />
       </list>
     </recent_temporary>
@@ -112,62 +186,82 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="392" y="87" key="#Project_Structure" timestamp="1611633239157">
+    <state x="392" y="87" key="#Project_Structure" timestamp="1611788879995">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="87" key="#Project_Structure/0.0.1600.860@0.0.1600.860" timestamp="1611633239157" />
-    <state x="229" y="78" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611691559280">
+    <state x="392" y="87" key="#Project_Structure/0.0.1600.860@0.0.1600.860" timestamp="1611788879995" />
+    <state x="229" y="78" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611788223345">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="229" y="78" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1611691559280" />
-    <state x="605" y="138" key="#com.intellij.ide.util.MemberChooser" timestamp="1611703239937">
+    <state x="229" y="78" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1611788223345" />
+    <state x="605" y="138" key="#com.intellij.ide.util.MemberChooser" timestamp="1611793820080">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="605" y="138" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1611703239937" />
+    <state x="605" y="138" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1611793820080" />
     <state x="505" y="204" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1611778002544">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="505" y="204" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1600.860@0.0.1600.860" timestamp="1611778002544" />
-    <state x="571" y="308" width="407" height="242" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1611778007037">
+    <state x="498" y="112" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1611786928483">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="571" y="308" width="407" height="242" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1600.860@0.0.1600.860" timestamp="1611778007037" />
-    <state width="1339" height="198" key="GridCell.Tab.0.bottom" timestamp="1611767873377">
+    <state x="498" y="112" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1600.860@0.0.1600.860" timestamp="1611786928483" />
+    <state x="571" y="308" width="408" height="242" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1611785940712">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1339" height="198" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1611767873377" />
-    <state width="1339" height="198" key="GridCell.Tab.0.center" timestamp="1611767873377">
+    <state x="571" y="308" width="408" height="242" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1600.860@0.0.1600.860" timestamp="1611785940712" />
+    <state x="372" y="42" key="#ood.interview.cards" timestamp="1611790287180">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1339" height="198" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1611767873377" />
-    <state width="1339" height="198" key="GridCell.Tab.0.left" timestamp="1611767873377">
+    <state x="372" y="42" key="#ood.interview.cards/0.0.1600.860@0.0.1600.860" timestamp="1611790287180" />
+    <state x="372" y="54" key="#test_in_PlayingCards" timestamp="1611786315811">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1339" height="198" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1611767873377" />
-    <state width="1339" height="198" key="GridCell.Tab.0.right" timestamp="1611767873377">
+    <state x="372" y="54" key="#test_in_PlayingCards/0.0.1600.860@0.0.1600.860" timestamp="1611786315811" />
+    <state x="504" y="277" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1611788399589">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1339" height="198" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1611767873377" />
-    <state width="1339" height="208" key="GridCell.Tab.1.bottom" timestamp="1611767704200">
+    <state x="504" y="277" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1600.860@0.0.1600.860" timestamp="1611788399589" />
+    <state x="555" y="165" key="FileChooserDialogImpl" timestamp="1611787603596">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1339" height="208" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1611767704200" />
-    <state width="1339" height="208" key="GridCell.Tab.1.center" timestamp="1611767704200">
+    <state x="555" y="165" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1611787603596" />
+    <state width="1384" height="145" key="GridCell.Tab.0.bottom" timestamp="1611796400067">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1339" height="208" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1611767704200" />
-    <state width="1339" height="208" key="GridCell.Tab.1.left" timestamp="1611767704200">
+    <state width="1384" height="145" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1611796400067" />
+    <state width="1384" height="145" key="GridCell.Tab.0.center" timestamp="1611796400066">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1339" height="208" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1611767704200" />
-    <state width="1339" height="208" key="GridCell.Tab.1.right" timestamp="1611767704200">
+    <state width="1384" height="145" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1611796400066" />
+    <state width="1384" height="145" key="GridCell.Tab.0.left" timestamp="1611796400066">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1339" height="208" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1611767704200" />
-    <state x="255" y="0" key="SettingsEditor" timestamp="1611633028728">
+    <state width="1384" height="145" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1611796400066" />
+    <state width="1384" height="145" key="GridCell.Tab.0.right" timestamp="1611796400067">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="255" y="0" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1611633028728" />
+    <state width="1384" height="145" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1611796400067" />
+    <state width="1384" height="215" key="GridCell.Tab.1.bottom" timestamp="1611791434510">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1384" height="215" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1611791434510" />
+    <state width="1384" height="215" key="GridCell.Tab.1.center" timestamp="1611791434510">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1384" height="215" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1611791434510" />
+    <state width="1384" height="215" key="GridCell.Tab.1.left" timestamp="1611791434510">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1384" height="215" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1611791434510" />
+    <state width="1384" height="215" key="GridCell.Tab.1.right" timestamp="1611791434510">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1384" height="215" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1611791434510" />
+    <state x="255" y="0" key="SettingsEditor" timestamp="1611788133607">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="255" y="0" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1611788133607" />
     <state x="495" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1611180154280">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -192,21 +286,21 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="517" y="42" key="refactoring.ChangeSignatureDialog/0.0.1600.860@0.0.1600.860" timestamp="1611621190976" />
-    <state x="463" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1611181262122">
+    <state x="463" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1611784505428">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="463" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1611181262122" />
+    <state x="463" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1611784505428" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ood/interview/cards/InterviewGame.java</url>
-          <line>130</line>
-          <option name="timeStamp" value="5" />
+          <url>file://$PROJECT_DIR$/src/main/java/ood/interview/cards/interfaces/Suits.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/ood/interview/cards/SingleDeck.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/ood/interview/cards/SingleDeck.java</url>
           <line>104</line>
           <properties class="ood.interview.cards.SingleDeck" method="sort">
             <option name="EMULATED" value="true" />
@@ -220,5 +314,19 @@
         <watch expression="suit" />
       </configuration>
     </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PlayingCards$InterviewGame.ic" NAME="InterviewGame Coverage Results" MODIFIED="1611782594557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ood.interview.cards.interfaces.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/PlayingCards$ood_interview_cards.ic" NAME="ood.interview.cards Coverage Results" MODIFIED="1611790291852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ood.interview.cards.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/PlayingCards$HumanPlayerTest.ic" NAME="HumanPlayerTest Coverage Results" MODIFIED="1611796399974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/PlayingCards$ood_interview_cards_in_PlayingCards.ic" NAME="ood.interview.cards in PlayingCards Coverage Results" MODIFIED="1611783645732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ood.interview.cards.*</FILTER>
+    </SUITE>
   </component>
 </project>
