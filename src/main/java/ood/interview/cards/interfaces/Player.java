@@ -49,10 +49,13 @@ public interface Player {
     public void displayHand();
 
     /**
-     * Return the player's card hand to the deck.
-     *
-     * @param hand the player's hand to be returned.
+     * Return the player's card hand.
      */
-    public void returnHand(List<Card> hand);
+    public List<Card> getHand();
+
+    /**
+     * Return the player's card hand to the deck.
+     */
+    public void returnHand();
 
 }

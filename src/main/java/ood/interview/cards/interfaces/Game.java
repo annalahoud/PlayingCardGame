@@ -51,13 +51,6 @@ public interface Game {
     public Player getPlayer(int index);
 
     /**
-     * Return a hand to the deck in play.
-     *
-     * @param hand player's hand to be returned to deck
-     */
-    public void returnHand(Collection<Card> hand);
-
-    /**
      * Add a card deck to the game.
      *
      * @param deck cards to be added to the game
@@ -70,6 +63,18 @@ public interface Game {
      * @param deck to be removed from the game
      */
     public void removeDeck(Deck deck);
+
+    /**
+     * Return a hand to the deck in play.
+     *
+     * @param hand player's hand to be returned to deck
+     */
+    public void returnHand(Collection<Card> hand);
+
+    /**
+     * Calculate the scores of the players of a game based on the rules of this game.
+     */
+    public void calculateScores();
 
     /**
      * Declare the Player that wins the game.

@@ -28,6 +28,7 @@ public class RegularPlayingCard implements RegularCard, Comparable<RegularPlayin
     public int getCardValue() {
         return cardValue.getCardValue();
     }
+
     @Override
     public int getFaceValue() {
         return cardValue.getFaceValue();
@@ -49,6 +50,19 @@ public class RegularPlayingCard implements RegularCard, Comparable<RegularPlayin
     public void display() {
         System.out.print(cardValue.getDisplay());
         System.out.println(suit.getDisplay());
+    }
+
+    /**
+     * Get the suit of the playing card.
+     *
+     * @return suit of the card
+     */
+    public Suits getSuit() {
+        Suits cardSuit = null;
+        if (suit != null) {
+            cardSuit = suit;
+        }
+        return cardSuit;
     }
 
     /**

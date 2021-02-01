@@ -2,35 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bed150bd-d9ab-4ad7-8d2d-6dacf2576767" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_2_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlayingCards.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PlayingCards.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ood/interview/cards/HumanPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ood/interview/cards/HumanPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ood/interview/cards/InterviewGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ood/interview/cards/InterviewGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ood/interview/cards/RegularPlayingCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ood/interview/cards/RegularPlayingCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ood/interview/cards/SingleDeck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ood/interview/cards/SingleDeck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ood/interview/cards/interfaces/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ood/interview/cards/interfaces/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ood/interview/cards/interfaces/CardValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ood/interview/cards/interfaces/CardValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ood/interview/cards/interfaces/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ood/interview/cards/interfaces/Deck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ood/interview/cards/interfaces/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ood/interview/cards/interfaces/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ood/interview/cards/interfaces/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ood/interview/cards/interfaces/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ood/interview/cards/interfaces/RegularCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ood/interview/cards/interfaces/RegularCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ood/interview/cards/interfaces/Suits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ood/interview/cards/interfaces/Suits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/ood/interview/cards/CardValueTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/ood/interview/cards/HumanPlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/HumanPlayerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/ood/interview/cards/InterviewGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/InterviewGameTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/ood/interview/cards/RegularPlayingCardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/RegularPlayingCardTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/ood/interview/cards/SingleDeckTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/SingleDeckTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/ood/interview/cards/SuitsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ood/interview/cards/HumanPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ood/interview/cards/HumanPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ood/interview/cards/InterviewGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ood/interview/cards/InterviewGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ood/interview/cards/RegularPlayingCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ood/interview/cards/RegularPlayingCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ood/interview/cards/SingleDeck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ood/interview/cards/SingleDeck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ood/interview/cards/interfaces/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ood/interview/cards/interfaces/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ood/interview/cards/interfaces/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ood/interview/cards/interfaces/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +21,7 @@
   <component name="CoverageViewManager">
     <option name="myFlattenPackages" value="true" />
     <option name="myAutoScrollToSource" value="true" />
-    <option name="myElementSize" value="187" />
+    <option name="myElementSize" value="190" />
   </component>
   <component name="ExportToHTMLSettings">
     <option name="OPEN_IN_BROWSER" value="true" />
@@ -108,7 +86,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HumanPlayerTest">
+  <component name="RunManager" selected="Application.InterviewGame">
     <configuration name="InterviewGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ood.interview.cards.InterviewGame" />
       <module name="PlayingCards" />
@@ -166,9 +144,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InterviewGame" />
         <item itemvalue="JUnit.HumanPlayerTest" />
         <item itemvalue="JUnit.ood.interview.cards" />
-        <item itemvalue="Application.InterviewGame" />
       </list>
     </recent_temporary>
   </component>
@@ -185,19 +163,55 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/Users/Owner/IdeaProjects/PlayingCards/target/generated-sources" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="392" y="87" key="#Project_Structure" timestamp="1611788879995">
+    <state x="392" y="87" key="#Project_Structure" timestamp="1611798772680">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="87" key="#Project_Structure/0.0.1600.860@0.0.1600.860" timestamp="1611788879995" />
+    <state x="392" y="87" key="#Project_Structure/0.0.1600.860@0.0.1600.860" timestamp="1611798772680" />
     <state x="229" y="78" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611788223345">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="229" y="78" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1611788223345" />
-    <state x="605" y="138" key="#com.intellij.ide.util.MemberChooser" timestamp="1611793820080">
+    <state x="605" y="138" key="#com.intellij.ide.util.MemberChooser" timestamp="1611862174671">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="605" y="138" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1611793820080" />
+    <state x="605" y="138" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1611862174671" />
     <state x="505" y="204" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1611778002544">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -226,22 +240,22 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="555" y="165" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1611787603596" />
-    <state width="1384" height="145" key="GridCell.Tab.0.bottom" timestamp="1611796400067">
+    <state width="1384" height="145" key="GridCell.Tab.0.bottom" timestamp="1611866971361">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1384" height="145" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1611796400067" />
-    <state width="1384" height="145" key="GridCell.Tab.0.center" timestamp="1611796400066">
+    <state width="1384" height="145" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1611866971361" />
+    <state width="1384" height="145" key="GridCell.Tab.0.center" timestamp="1611866971360">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1384" height="145" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1611796400066" />
-    <state width="1384" height="145" key="GridCell.Tab.0.left" timestamp="1611796400066">
+    <state width="1384" height="145" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1611866971360" />
+    <state width="1384" height="145" key="GridCell.Tab.0.left" timestamp="1611866971360">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1384" height="145" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1611796400066" />
-    <state width="1384" height="145" key="GridCell.Tab.0.right" timestamp="1611796400067">
+    <state width="1384" height="145" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1611866971360" />
+    <state width="1384" height="145" key="GridCell.Tab.0.right" timestamp="1611866971360">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1384" height="145" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1611796400067" />
+    <state width="1384" height="145" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1611866971360" />
     <state width="1384" height="215" key="GridCell.Tab.1.bottom" timestamp="1611791434510">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

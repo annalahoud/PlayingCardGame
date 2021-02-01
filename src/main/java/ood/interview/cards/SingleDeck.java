@@ -16,8 +16,8 @@ import java.util.*;
  */
 public class SingleDeck implements Deck {
 
-    private final int DECK_SIZE = 52;
-    public List<RegularPlayingCard> deck;
+    public static final int DECK_SIZE = 52;
+    private List<RegularPlayingCard> deck;
 
     public SingleDeck() {
         deck = new ArrayList<>(DECK_SIZE);

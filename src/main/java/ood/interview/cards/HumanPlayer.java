@@ -89,12 +89,24 @@ public class HumanPlayer implements Player {
     }
 
     /**
-     * Return the player's card hand to the deck.
+     * Return the player's card hand. This simply provides a COPY. It does not return the hand to the deck.
      *
-     * @param hand the player's hand to be returned.
+     * @return list of cards that the player currently has
      */
     @Override
-    public void returnHand(List<Card> hand) {
+    public List<Card> getHand() {
+        List<Card> playerHand = null;
+        if ((hand != null) && (!hand.isEmpty())) {
+            playerHand = hand;
+        }
+        return playerHand;
+    }
+
+    /**
+     * Return the player's card hand to the deck.
+     */
+    @Override
+    public void returnHand() {
         if ((hand != null) && (!hand.isEmpty())) {
             game.returnHand(hand);
             hand.clear();
