@@ -16,12 +16,19 @@ public interface Game {
     /**
      * Begin a card game.
      */
-    public void startGame();
+    public boolean startGame();
 
     /**
      * End a card game.
      */
     public void endGame();
+
+    /**
+     * Determine if a game is started.
+     *
+     * @return true if the game is started, false otherwise
+     */
+    public boolean isGameStarted();
 
     /**
      * Add a player to the card game.
@@ -59,10 +66,8 @@ public interface Game {
 
     /**
      * Remove card deck from the game.
-     *
-     * @param deck to be removed from the game
      */
-    public void removeDeck(Deck deck);
+    public void removeDeck();
 
     /**
      * Return a hand to the deck in play.

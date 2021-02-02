@@ -27,11 +27,30 @@ public class InterviewGame implements Game {
     }
 
     /**
-     * Begin a card game.
+     * Begin a card game.c
      */
     @Override
-    public void startGame() {
-        gameStarted = true;
+    public boolean startGame() {
+        if (checkDeck() && checkPlayers()) {
+            gameStarted = true;
+        }
+        return gameStarted;
+    }
+
+    // see if the deck is ready for a gamep
+    private boolean checkDeck() {
+        if ((deck != null) && (deck.countRemaining() == SingleDeck.DECK_SIZE)) {
+            return true;
+        }
+        return false;
+    }
+
+    // see if there are players ready for a game
+    private boolean checkPlayers() {
+        if ((playerList != null) && (playerList.size() > 1)) {
+            return true;
+        }
+        return false;
     }
 
     /**
@@ -42,6 +61,15 @@ public class InterviewGame implements Game {
         if (gameStarted) {
             gameStarted = false;
         }
+    }
+
+    /**
+     * Determine if the card game is started.
+     *
+     * @return true if the game is started, false otherwise
+     */
+    public boolean isGameStarted() {
+        return gameStarted;
     }
 
     /**
@@ -110,14 +138,12 @@ public class InterviewGame implements Game {
 
     /**
      * Remove card deck from the game.
-     *
-     * @param deck to be removed from the game
-     */
+    */
     @Override
-    public void removeDeck(Deck deck) {
+    public void removeDeck() {
         // Since we only allow one deck, we just null the deck if requested.
         if (this.deck != null) {
-            this.deck = deck;
+            this.deck = null;
         }
     }
 
