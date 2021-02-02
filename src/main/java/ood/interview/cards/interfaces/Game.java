@@ -77,6 +77,11 @@ public interface Game {
     public void returnHand(Collection<Card> hand);
 
     /**
+     * Deal hands to players based on the game rules.
+     */
+    public void dealHands();
+
+    /**
      * Calculate the scores of the players of a game based on the rules of this game.
      */
     public void calculateScores();

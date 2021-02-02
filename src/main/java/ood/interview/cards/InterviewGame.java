@@ -18,6 +18,9 @@ import java.util.List;
  */
 public class InterviewGame implements Game {
 
+    public static final int CARDS_PER_HAND = 3;
+    public static final int PLAYERS_PER_HAND = 2;
+
     private boolean gameStarted = false;
     private Deck deck;
     private List<Player> playerList;
@@ -33,6 +36,9 @@ public class InterviewGame implements Game {
     public boolean startGame() {
         if (checkDeck() && checkPlayers()) {
             gameStarted = true;
+        }
+        else {
+            gameStarted = false;
         }
         return gameStarted;
     }
@@ -161,6 +167,26 @@ public class InterviewGame implements Game {
     }
 
     /**
+     * Deal hands to players based on the game rules.
+     */
+    public void dealHands() {
+        if (checkDeck() && checkPlayers()) {
+            deck.shuffle();
+
+            // Deal the cards for a 3-card game, where scores are calculated based on suit and card value.
+            // Assume we have at least 2 players and we only let the first two play.
+            for (int i = 0; i < CARDS_PER_HAND; i++) {
+                for (int j = 0; j < PLAYERS_PER_HAND; j++) {
+                    playerList.get(j).acceptCard(deck.drawCard());
+                }
+            }
+        }
+        else {
+            System.out.println("The game requires a full deck of cards and two players.");
+        }
+    }
+
+    /**
      * Calculate the scores of the players of a game based on the rules of this game.
      *
      * The rules of this game are to score the player's hands based on the NUMBER in the card. Assume that we can
@@ -192,6 +218,7 @@ public class InterviewGame implements Game {
                     }
                 }
                 System.out.println("Player " + player.getName() + " has a total score of " + score + ".");
+                player.setGameScore(score);
                 if (score > highScore) {
                     highScore = score;
                     playerWithHighScore = i;

@@ -58,4 +58,19 @@ public interface Player {
      */
     public void returnHand();
 
+    /**
+     * Set the score for the player for this game.
+     *
+     * @param score for the game played
+     */
+    public void setGameScore(int score);
+
+    /**
+     * Get the score for the game.
+     *
+     * @return score of the game played, zero if none played
+     */
+    public int getGameScore();
+
+
 }

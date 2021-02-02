@@ -1,5 +1,6 @@
 package test;
 
+import ood.interview.cards.HumanPlayer;
 import ood.interview.cards.InterviewGame;
 import ood.interview.cards.SingleDeck;
 import ood.interview.cards.interfaces.Deck;
@@ -186,19 +187,103 @@ class InterviewGameTest {
     }
 
     @Test
+    void dealHand_success() {
+        Game game = new InterviewGame();
+        Deck realDeck = new SingleDeck();
+        game.addDeck(realDeck);
+
+        Player playerX = new HumanPlayer("X");
+        Player playerY = new HumanPlayer("Y");
+        game.addPlayer(playerX);
+        game.addPlayer(playerY);
+
+        game.dealHands();
+
+        assertEquals(InterviewGame.CARDS_PER_HAND, playerX.getHand().size());
+        assertEquals(InterviewGame.CARDS_PER_HAND, playerY.getHand().size());
+    }
+
+    @Test
+    void dealHand_notReady() {
+        Game game = new InterviewGame();
+        Deck realDeck = new SingleDeck();
+        game.addDeck(realDeck);
+
+        Player playerX = new HumanPlayer("X");
+        game.addPlayer(playerX);
+
+        game.dealHands();
+
+        assertEquals(0, playerX.getHand().size());
+    }
+
+    @Test
     void returnHand() {
+        Game game = new InterviewGame();
+        Deck realDeck = new SingleDeck();
+        game.addDeck(realDeck);
+
+        Player playerX = new HumanPlayer("X");
+        Player playerY = new HumanPlayer("Y");
+        game.addPlayer(playerX);
+        game.addPlayer(playerY);
+
+        game.dealHands();
+
+        assertEquals(InterviewGame.CARDS_PER_HAND, playerX.getHand().size());
+        assertEquals(InterviewGame.CARDS_PER_HAND, playerY.getHand().size());
+
+        game.returnHand(playerX.getHand());
+        assertEquals(0, playerX.getHand().size());
+        game.returnHand(playerY.getHand());
+        assertEquals(0, playerY.getHand().size());
     }
 
     @Test
     void addDeck() {
+        Game game = new InterviewGame();
+        Deck realDeck = new SingleDeck();
+        game.addDeck(realDeck);
+        game.addPlayer(playerA);
+        game.addPlayer(playerB);
+
+        // to verify: check if you can start a game
+        assertTrue(game.startGame());
     }
 
     @Test
     void removeDeck() {
+        Game game = new InterviewGame();
+        Deck realDeck = new SingleDeck();
+        game.addDeck(realDeck);
+        game.addPlayer(playerA);
+        game.addPlayer(playerB);
+
+        // to verify the deck is in the game: check if you can start a game
+        assertTrue(game.startGame());
+
+        game.removeDeck();
+        assertFalse(game.startGame());
     }
 
     @Test
     public void calculateScores() {
+        Game game = new InterviewGame();
+        Deck realDeck = new SingleDeck();
+        game.addDeck(realDeck);
+
+        Player playerX = new HumanPlayer("X");
+        Player playerY = new HumanPlayer("Y");
+        game.addPlayer(playerX);
+        game.addPlayer(playerY);
+
+        game.dealHands();
+
+        game.calculateScores();
+
+        assert(playerX.getGameScore() > 0);
+        assert(playerY.getGameScore() > 0);
+
     }
 
     @Test

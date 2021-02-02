@@ -25,6 +25,9 @@ public class HumanPlayer implements Player {
     // A name (any string) to be associated with the player.
     private String name;
 
+    // Score of a game
+    private int gameScore = 0;
+
     /**
      * Construct a player with the given name.
      *
@@ -32,6 +35,7 @@ public class HumanPlayer implements Player {
      */
     public HumanPlayer(String name) {
         setName(name);
+        hand = new ArrayList<>();
     }
 
     /**
@@ -72,9 +76,6 @@ public class HumanPlayer implements Player {
     @Override
     public void acceptCard(Card card) {
         if (card != null) {
-            if (hand == null) {
-               hand = new ArrayList<>();
-            }
             hand.add(card);
         }
     }
@@ -96,7 +97,7 @@ public class HumanPlayer implements Player {
     @Override
     public List<Card> getHand() {
         List<Card> playerHand = null;
-        if ((hand != null) && (!hand.isEmpty())) {
+        if (hand != null) {
             playerHand = hand;
         }
         return playerHand;
@@ -111,6 +112,24 @@ public class HumanPlayer implements Player {
             game.returnHand(hand);
             hand.clear();
         }
+    }
+
+    /**
+     * Set the score for the player for this game.
+     *
+     * @param score for the game played
+     */
+    public void setGameScore(int score) {
+        gameScore = score;
+    }
+
+    /**
+     * Get the score for the game.
+     *
+     * @return score of the game played, zero if none played
+     */
+    public int getGameScore() {
+        return gameScore;
     }
 
 }
