@@ -3,11 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="bed150bd-d9ab-4ad7-8d2d-6dacf2576767" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ood/interview/cards/HumanPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ood/interview/cards/HumanPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ood/interview/cards/InterviewGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ood/interview/cards/InterviewGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ood/interview/cards/interfaces/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ood/interview/cards/interfaces/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ood/interview/cards/interfaces/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ood/interview/cards/interfaces/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/InterviewGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/InterviewGameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/HumanPlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ood/interview/cards/HumanPlayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/InterviewGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ood/interview/cards/InterviewGameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/RegularPlayingCardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ood/interview/cards/RegularPlayingCardTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/SingleDeckTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ood/interview/cards/SingleDeckTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +19,7 @@
   <component name="CoverageViewManager">
     <option name="myFlattenPackages" value="true" />
     <option name="myAutoScrollToSource" value="true" />
-    <option name="myElementSize" value="190" />
+    <option name="myElementSize" value="192" />
   </component>
   <component name="ExportToHTMLSettings">
     <option name="OPEN_IN_BROWSER" value="true" />
@@ -79,6 +78,7 @@
       <recent name="ood.interview.cards" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ood.interview.cards" />
       <recent name="ood.interview.cards.interfaces" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -90,12 +90,12 @@
       <module name="PlayingCards" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="ood.interview.cards.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.InterviewGameTest" />
+      <option name="PACKAGE_NAME" value="ood.interview.cards" />
+      <option name="MAIN_CLASS_NAME" value="ood.interview.cards.InterviewGameTest" />
       <option name="METHOD_NAME" value="calculateScores" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -106,12 +106,12 @@
       <module name="PlayingCards" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="ood.interview.cards.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.InterviewGameTest" />
+      <option name="PACKAGE_NAME" value="ood.interview.cards" />
+      <option name="MAIN_CLASS_NAME" value="ood.interview.cards.InterviewGameTest" />
       <option name="METHOD_NAME" value="dealHand_notReady" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -122,12 +122,12 @@
       <module name="PlayingCards" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="ood.interview.cards.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.InterviewGameTest" />
+      <option name="PACKAGE_NAME" value="ood.interview.cards" />
+      <option name="MAIN_CLASS_NAME" value="ood.interview.cards.InterviewGameTest" />
       <option name="METHOD_NAME" value="dealHand_success" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -138,12 +138,12 @@
       <module name="PlayingCards" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="ood.interview.cards.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.InterviewGameTest" />
+      <option name="PACKAGE_NAME" value="ood.interview.cards" />
+      <option name="MAIN_CLASS_NAME" value="ood.interview.cards.InterviewGameTest" />
       <option name="METHOD_NAME" value="removeDeck" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -154,12 +154,12 @@
       <module name="PlayingCards" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="ood.interview.cards.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.InterviewGameTest" />
+      <option name="PACKAGE_NAME" value="ood.interview.cards" />
+      <option name="MAIN_CLASS_NAME" value="ood.interview.cards.InterviewGameTest" />
       <option name="METHOD_NAME" value="returnHand" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -253,10 +253,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="498" y="112" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1600.860@0.0.1600.860" timestamp="1611786928483" />
-    <state x="571" y="308" width="408" height="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1612214866827">
+    <state x="571" y="308" width="408" height="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1612311714329">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="571" y="308" width="408" height="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1600.860@0.0.1600.860" timestamp="1612214866827" />
+    <state x="571" y="308" width="408" height="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1600.860@0.0.1600.860" timestamp="1612311714329" />
     <state x="372" y="42" key="#ood.interview.cards" timestamp="1611790287180">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -273,22 +273,22 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="555" y="165" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1612216084827" />
-    <state width="685" height="239" key="GridCell.Tab.0.bottom" timestamp="1612299741735">
+    <state width="685" height="239" key="GridCell.Tab.0.bottom" timestamp="1612311777350">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="685" height="239" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1612299741735" />
-    <state width="685" height="239" key="GridCell.Tab.0.center" timestamp="1612299741735">
+    <state width="685" height="239" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1612311777350" />
+    <state width="685" height="239" key="GridCell.Tab.0.center" timestamp="1612311777350">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="685" height="239" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1612299741735" />
-    <state width="685" height="239" key="GridCell.Tab.0.left" timestamp="1612299741735">
+    <state width="685" height="239" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1612311777350" />
+    <state width="685" height="239" key="GridCell.Tab.0.left" timestamp="1612311777349">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="685" height="239" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1612299741735" />
-    <state width="685" height="239" key="GridCell.Tab.0.right" timestamp="1612299741735">
+    <state width="685" height="239" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1612311777349" />
+    <state width="685" height="239" key="GridCell.Tab.0.right" timestamp="1612311777350">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="685" height="239" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1612299741735" />
+    <state width="685" height="239" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1612311777350" />
     <state width="685" height="214" key="GridCell.Tab.1.bottom" timestamp="1612297716169">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -347,12 +347,12 @@
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/test/InterviewGameTest.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/ood/interview/cards/InterviewGameTest.java</url>
           <line>211</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/test/InterviewGameTest.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/ood/interview/cards/InterviewGameTest.java</url>
           <line>232</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
@@ -386,6 +386,9 @@
     </SUITE>
     <SUITE FILE_PATH="coverage/PlayingCards$HumanPlayerTest.ic" NAME="HumanPlayerTest Coverage Results" MODIFIED="1611796399974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>test.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/PlayingCards$InterviewGameTest_calculateScores.ic" NAME="InterviewGameTest.calculateScores Coverage Results" MODIFIED="1612311777319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ood.interview.cards.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/PlayingCards$ood_interview_cards_in_PlayingCards.ic" NAME="ood.interview.cards in PlayingCards Coverage Results" MODIFIED="1611783645732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ood.interview.cards.*</FILTER>

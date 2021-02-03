@@ -1,4 +1,4 @@
-package test;
+package ood.interview.cards;
 
 import ood.interview.cards.HumanPlayer;
 import ood.interview.cards.InterviewGame;
