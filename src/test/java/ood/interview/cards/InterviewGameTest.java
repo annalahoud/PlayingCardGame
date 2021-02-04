@@ -1,12 +1,8 @@
 package ood.interview.cards;
 
-import ood.interview.cards.HumanPlayer;
-import ood.interview.cards.InterviewGame;
-import ood.interview.cards.SingleDeck;
 import ood.interview.cards.interfaces.Deck;
 import ood.interview.cards.interfaces.Game;
 import ood.interview.cards.interfaces.Player;
-import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.*;
@@ -24,7 +20,7 @@ class InterviewGameTest {
     /**
      * Start a game with the deck and two players
      *
-     * @param game
+     * @param game the game to be played
      */
     private void startGameForTest(Game game) {
         game.addDeck(deck);
@@ -40,10 +36,6 @@ class InterviewGameTest {
         deck = Mockito.mock(Deck.class);
 
         when(deck.countRemaining()).thenReturn(SingleDeck.DECK_SIZE);
-    }
-
-    @AfterEach
-    void tearDown() {
     }
 
     @Test
@@ -286,7 +278,4 @@ class InterviewGameTest {
 
     }
 
-    @Test
-    void declareWinner() {
-    }
 }

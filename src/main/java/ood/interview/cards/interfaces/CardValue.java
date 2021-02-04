@@ -33,7 +33,7 @@ public enum CardValue {
         this.cardValue = i;
         this.faceValue = faceValue;
         this.display = display;
-    };
+    }
 
     public char getDisplay() { return display; }
     public int getFaceValue() { return faceValue; }

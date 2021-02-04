@@ -12,6 +12,6 @@ public interface Card {
     /**
      * Show game card on screen
      */
-    public void display();
+    void display();
 
 }

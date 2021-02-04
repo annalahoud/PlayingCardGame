@@ -23,7 +23,7 @@ public class InterviewGame implements Game {
 
     private boolean gameStarted = false;
     private Deck deck;
-    private List<Player> playerList;
+    private final List<Player> playerList;
 
     public InterviewGame() {
         playerList = new ArrayList<>();
@@ -53,7 +53,7 @@ public class InterviewGame implements Game {
 
     // see if there are players ready for a game
     private boolean checkPlayers() {
-        if ((playerList != null) && (playerList.size() > 1)) {
+        if (playerList.size() > 1) {
             return true;
         }
         return false;
@@ -97,7 +97,7 @@ public class InterviewGame implements Game {
      */
     @Override
     public void removePlayer(Player player) {
-        if ((player != null) && (playerList.size() > 0)) {
+        if (playerList.size() > 0) {
             playerList.remove(player);
         }
     }
@@ -162,7 +162,7 @@ public class InterviewGame implements Game {
     public void returnHand(Collection<Card> hand) {
         if ((hand != null) && (!hand.isEmpty())) {
             deck.returnCards(hand);
-            hand.removeAll(hand);
+            hand.clear();
         }
     }
 
@@ -202,7 +202,7 @@ public class InterviewGame implements Game {
     public void calculateScores() {
         int highScore = -1;
         int playerWithHighScore = -1;
-        if ((playerList != null) && (playerList.size() > 0)) {
+        if (playerList.size() > 1) {
             for (int i = 0; i < playerList.size(); i++) {
                 int score = 0;
                 Player player = playerList.get(i);
@@ -240,18 +240,16 @@ public class InterviewGame implements Game {
 
     public static void main(String[] args) {
         // Begin with a game and two players
-        InterviewGame game1 = new InterviewGame();
-        HumanPlayer player1 = new HumanPlayer("Player 1");
-        HumanPlayer player2 = new HumanPlayer("Player 2") ;
+        InterviewGame game = new InterviewGame();
+        HumanPlayer player1 = new HumanPlayer("Random1");
+        HumanPlayer player2 = new HumanPlayer("Random2") ;
 
         // We keep the players in a list in the game AND a reference to the game in the player.
-        game1.addPlayer(player1);
-        game1.addPlayer(player2);
-        player1.joinGame(game1);
-        player2.joinGame(game1);
-        for (int i = 0; i < game1.playerList.size(); i++) {
+        player1.joinGame(game);
+        player2.joinGame(game);
+        for (int i = 0; i < game.playerList.size(); i++) {
             System.out.println("Players now part of the game:");
-            System.out.println("  Player " + game1.playerList.get(i).getName());
+            System.out.println("  Player " + game.playerList.get(i).getName());
         }
 
         // Create a single deck of RegularPlayingCards and add to the game.
@@ -269,25 +267,16 @@ public class InterviewGame implements Game {
 
         // Add the deck to the game and start the game.
         System.out.println("Shuffle the cards again.");
-        game1.addDeck(singleDeck);
+        game.addDeck(singleDeck);
         singleDeck.shuffle();
-
-        // Deal the cards for a 3-card game, where scores are calculated based on suit and card value.
-        // Assume we have at least 2 players and we only let the first two play.
-        assert(game1.playerList.size() >= 2);
-        for (int i = 0; i < 3; i++) {
-            for (int j = 0; j < 2; j++) {
-                game1.playerList.get(j).acceptCard(singleDeck.drawCard());
-            }
-        }
+        game.dealHands();
 
         // Now the two players of the game each have 3 card hands which needs to be scored.
-        game1.calculateScores();
+        game.calculateScores();
 
-        // Return the cards in each player's hand to the deck.
-        for (int i = 0; i < 2; i++) {
-            game1.playerList.get(i).returnHand();
-        }
+        // Now both players leave the game which returns the hands to the deck.
+        player1.leaveGame();
+        player2.leaveGame();
 
         // If that worked as intended, we should now have a full deck back in the game.
         assert(singleDeck.countRemaining() == SingleDeck.DECK_SIZE);

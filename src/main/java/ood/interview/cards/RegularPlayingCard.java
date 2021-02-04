@@ -5,7 +5,7 @@ import ood.interview.cards.interfaces.RegularCard;
 import ood.interview.cards.interfaces.Suits;
 
 /**
- * Regular playing card imlementation class.
+ * Regular playing card implementation class.
  *
  * @author Anna M. Lahoud
  * @version 0.1
@@ -39,7 +39,6 @@ public class RegularPlayingCard implements RegularCard, Comparable<RegularPlayin
      * This formula results in the sort values being between 1 and DECK_SIZE.
      *
      * @return int unique sort value for this card
-     * @see
      */
     @Override
     public int getSortValue() {

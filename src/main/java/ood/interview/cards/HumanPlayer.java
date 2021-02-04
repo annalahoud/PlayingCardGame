@@ -17,7 +17,7 @@ import java.util.List;
 public class HumanPlayer implements Player {
 
     // A player can have one (or no) card hands.
-    private List<Card> hand;
+    private final List<Card> hand;
 
     // A player can play, at most, one game at a time
     private Game game;
@@ -63,14 +63,21 @@ public class HumanPlayer implements Player {
     @Override
     public void joinGame(Game game) {
         this.game = game;
+        game.addPlayer(this);
+    }
+
+    public Game getGame() {
+        return game;
     }
 
     @Override
     public void leaveGame() {
-        game.returnHand(hand);
-
-        this.game = null;
-        hand.clear();
+        if (game != null) {
+            game.returnHand(hand);
+            hand.clear();
+            game.removePlayer(this);
+            this.game = null;
+        }
     }
 
     @Override
@@ -82,15 +89,18 @@ public class HumanPlayer implements Player {
 
     @Override
     public void displayHand() {
-        if ((hand != null) && (!hand.isEmpty())) {
+        if (!hand.isEmpty()) {
             for (Card card : hand) {
                 card.display();
             }
         }
+        else {
+            System.out.println("Player " + getName() + " has no cards to display.");
+        }
     }
 
     /**
-     * Return the player's card hand. This simply provides a COPY. It does not return the hand to the deck.
+     * Return the player's card hand. This does not return the hand to the deck.
      *
      * @return list of cards that the player currently has
      */
@@ -108,7 +118,7 @@ public class HumanPlayer implements Player {
      */
     @Override
     public void returnHand() {
-        if ((hand != null) && (!hand.isEmpty())) {
+        if ((game != null) && (!hand.isEmpty())) {
             game.returnHand(hand);
             hand.clear();
         }

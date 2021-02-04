@@ -17,60 +17,66 @@ public interface Player {
      *
      * @param name The name to be associated with the player.
      */
-    public void setName(String name);
+    void setName(String name);
 
     /**
      * Get a player's name.
      *
      * @return String name associated with the player
      */
-    public String getName();
+    String getName();
 
     /**
      * Join a card game.
      */
-    public void joinGame(Game game);
+    void joinGame(Game game);
+
+    /**
+     * Return a game that the player belongs to, or null if none.
+     *
+     * @return game that the player has joined
+     */
+    Game getGame();
 
     /**
      * Leave a card game.
      */
-    public void leaveGame();
+    void leaveGame();
 
     /**
      * Accept a card into hand.
      *
      * @param card add the passed card to the player's hand
      */
-    public void acceptCard(Card card);
+    void acceptCard(Card card);
 
     /**
      * Display the player's card hand.
      */
-    public void displayHand();
+    void displayHand();
 
     /**
      * Return the player's card hand.
      */
-    public List<Card> getHand();
+    List<Card> getHand();
 
     /**
      * Return the player's card hand to the deck.
      */
-    public void returnHand();
+    void returnHand();
 
     /**
      * Set the score for the player for this game.
      *
      * @param score for the game played
      */
-    public void setGameScore(int score);
+    void setGameScore(int score);
 
     /**
      * Get the score for the game.
      *
      * @return score of the game played, zero if none played
      */
-    public int getGameScore();
-
+    int getGameScore();
 
 }

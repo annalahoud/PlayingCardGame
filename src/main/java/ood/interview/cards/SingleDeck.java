@@ -17,7 +17,7 @@ import java.util.*;
 public class SingleDeck implements Deck {
 
     public static final int DECK_SIZE = 52;
-    private List<RegularPlayingCard> deck;
+    private final List<RegularPlayingCard> deck;
 
     public SingleDeck() {
         deck = new ArrayList<>(DECK_SIZE);
@@ -46,8 +46,7 @@ public class SingleDeck implements Deck {
     @Override
     public void display() {
         if ((deck != null) && (!deck.isEmpty())) {
-            for (int i = 0; i < deck.size(); i++) {
-                Card card = deck.get(i);
+            for (Card card : deck) {
                 card.display();
             }
         }
@@ -107,7 +106,7 @@ public class SingleDeck implements Deck {
             Collections.sort(deck);
         }
         else {
-            Collections.sort(deck, Collections.reverseOrder());
+            deck.sort(Collections.reverseOrder());
         }
     }
 }

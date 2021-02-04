@@ -14,20 +14,20 @@ public interface RegularCard extends Card {
      *
       * @return count Integer value of the card (A=1, 2=2, ..., J=11, Q=12, K=13)
      */
-    public int getCardValue();
+    int getCardValue();
 
     /**
      * Obtain the face value of the card (A=1, 2=2, ..., J=10, Q=10, K=10)
      *
      * @return value of card's face value
      */
-    public int getFaceValue();
+    int getFaceValue();
 
     /**
      * Obtain the sort value of the card (face card value multiplied by the value assigned for the suit).
      *
      * @return count the sort value of the card
      */
-    public int getSortValue();
+    int getSortValue();
 
 }
