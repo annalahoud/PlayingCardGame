@@ -1,38 +1,42 @@
 package ood.interview.cards;
 
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class SingleDeckTest {
 
-    @org.junit.jupiter.api.BeforeEach
+    @BeforeEach
     void setUp() {
     }
 
-    @org.junit.jupiter.api.AfterEach
+    @AfterEach
     void tearDown() {
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void shuffle() {
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void drawCard() {
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void returnCard() {
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void returnCards() {
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void countRemaining() {
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void countMissing() {
     }
 }

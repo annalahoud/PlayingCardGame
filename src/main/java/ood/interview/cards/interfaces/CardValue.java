@@ -1,7 +1,10 @@
-package ood.interview.cards;
+package ood.interview.cards.interfaces;
 
 public enum CardValue {
 
+    /** The values of the cards have three components: the sort value (K=13), the face value (K=10), and
+     * the character that will be displayed for the card's value.
+     */
     Ace(1, 1, 'A'),
     Two(2,2, '2'),
     Three(3, 3, '3'),
@@ -20,13 +23,20 @@ public enum CardValue {
     private final int faceValue;
     private final char display;
 
+    /** Constructor for card values that includes the three values it uses.
+     *
+     * @param i the sort value of the card
+     * @param faceValue the face value of the card
+     * @param display the character to display for the card valued
+     */
     CardValue(int i, int faceValue, char display) {
         this.cardValue = i;
         this.faceValue = faceValue;
         this.display = display;
-    };
+    }
+
     public char getDisplay() { return display; }
     public int getFaceValue() { return faceValue; }
-
+    public int getCardValue() { return cardValue; }
 
 }

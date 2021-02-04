@@ -1,5 +1,10 @@
 package ood.interview.cards;
 
+import ood.interview.cards.interfaces.Card;
+import ood.interview.cards.interfaces.CardValue;
+import ood.interview.cards.interfaces.Deck;
+import ood.interview.cards.interfaces.Suits;
+
 import java.util.*;
 
 /**
@@ -11,8 +16,8 @@ import java.util.*;
  */
 public class SingleDeck implements Deck {
 
-    private final int DECK_SIZE = 52;
-    private List<RegularPlayingCard> deck;
+    public static final int DECK_SIZE = 52;
+    private final List<RegularPlayingCard> deck;
 
     public SingleDeck() {
         deck = new ArrayList<>(DECK_SIZE);
@@ -32,10 +37,7 @@ public class SingleDeck implements Deck {
     @Override
     public void shuffle() {
         Collections.shuffle(deck);
-        for (int i = 0; i < DECK_SIZE; i++) {
-            Card card = deck.get(i);
-            card.display();
-        }
+        display();
     }
 
     /**
@@ -44,8 +46,7 @@ public class SingleDeck implements Deck {
     @Override
     public void display() {
         if ((deck != null) && (!deck.isEmpty())) {
-            for (int i = 0; i < deck.size(); i++) {
-                Card card = deck.get(i);
+            for (Card card : deck) {
                 card.display();
             }
         }
@@ -101,14 +102,11 @@ public class SingleDeck implements Deck {
      */
     @Override
     public void sort(boolean sortAscending) {
-        Collections.sort(deck, new Comparator<RegularPlayingCard>() {
-            @Override
-            public int compare(RegularPlayingCard lhs, RegularPlayingCard rhs) {
-                // -1 - less than, 1 - greater than, 0 - equal, all inversed for descending
-                int lhsSortValue = lhs.getSortValue();
-                int rhsSortValue = rhs.getSortValue();
-                return lhsSortValue > rhsSortValue ? -1 : (lhsSortValue < rhsSortValue) ? 1 : 0;
-            }
-        });
+        if (sortAscending) {
+            Collections.sort(deck);
+        }
+        else {
+            deck.sort(Collections.reverseOrder());
+        }
     }
 }

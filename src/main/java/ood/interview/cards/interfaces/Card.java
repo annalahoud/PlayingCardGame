@@ -1,4 +1,4 @@
-package ood.interview.cards;
+package ood.interview.cards.interfaces;
 
 /**
  * Superclass of all types of game cards.
@@ -12,6 +12,6 @@ public interface Card {
     /**
      * Show game card on screen
      */
-    public void display();
+    void display();
 
 }
