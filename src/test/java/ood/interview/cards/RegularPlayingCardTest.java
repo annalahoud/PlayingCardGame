@@ -3,11 +3,19 @@ package ood.interview.cards;
 import ood.interview.cards.interfaces.CardValue;
 import ood.interview.cards.interfaces.RegularCard;
 import ood.interview.cards.interfaces.Suits;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
+import java.io.ByteArrayOutputStream;
+import java.io.PrintStream;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class RegularPlayingCardTest {
+
+    private final PrintStream standardOut = System.out;
+    private final ByteArrayOutputStream outputStreamCaptor = new ByteArrayOutputStream();
 
     // we use RegularCard because the interface Card can have no-value cards
     private RegularCard king = new RegularPlayingCard(Suits.CLUBS, CardValue.King);
@@ -23,6 +31,16 @@ class RegularPlayingCardTest {
     private RegularCard three = new RegularPlayingCard(Suits.CLUBS, CardValue.Three);
     private RegularCard two = new RegularPlayingCard(Suits.CLUBS, CardValue.Two);
     private RegularCard ace = new RegularPlayingCard(Suits.CLUBS, CardValue.Ace);
+
+    @BeforeEach
+    void setUp() {
+        System.setOut(new PrintStream(outputStreamCaptor));
+    }
+
+    @AfterEach
+    void tearDown() {
+        System.setOut(standardOut);
+    }
 
     @Test
     void getCardValue() {
@@ -70,6 +88,16 @@ class RegularPlayingCardTest {
         assertEquals( 13+(2*13), kingHearts.getSortValue());
         assertEquals( 13+(1*13), kingDiamonds.getSortValue());
         assertEquals( 13+(0*13), kingSpades.getSortValue());
+    }
+
+    @Test
+    void display() {
+        char clubs = (char)'\u2663';
+        king.display();
+
+        String value = new String("K" + clubs);
+        assertEquals(value, outputStreamCaptor.toString().trim());
+
     }
 
 }
