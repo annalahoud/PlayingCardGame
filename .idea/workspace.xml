@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bed150bd-d9ab-4ad7-8d2d-6dacf2576767" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ood/interview/cards/RegularPlayingCardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ood/interview/cards/RegularPlayingCardTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlayingCards.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PlayingCards.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +21,7 @@
   <component name="CoverageViewManager">
     <option name="myFlattenPackages" value="true" />
     <option name="myAutoScrollToSource" value="true" />
-    <option name="myElementSize" value="149" />
+    <option name="myElementSize" value="139" />
   </component>
   <component name="ExportToHTMLSettings">
     <option name="OPEN_IN_BROWSER" value="true" />
@@ -64,12 +69,12 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$/lib/mockito-core-3.7.0.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -165,6 +170,8 @@
     <list>
       <item itemvalue="Application.InterviewGame" />
       <item itemvalue="JUnit.ood.interview.cards in PlayingCards" />
+      <item itemvalue="JUnit.HumanPlayerTest" />
+      <item itemvalue="JUnit.InterviewGameTest" />
       <item itemvalue="JUnit.RegularPlayingCardTest.display" />
     </list>
     <recent_temporary>
@@ -230,10 +237,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="392" y="87" key="#Project_Structure/0.0.1600.860@0.0.1600.860" timestamp="1611798772680" />
-    <state x="229" y="78" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612478266455">
+    <state x="229" y="78" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612546072090">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="229" y="78" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1612478266455" />
+    <state x="229" y="78" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1612546072090" />
     <state x="175" y="115" width="1186" height="620" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1612479793206">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -274,46 +281,46 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="555" y="165" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1612471266166" />
-    <state width="1370" height="239" key="GridCell.Tab.0.bottom" timestamp="1612480013510">
+    <state width="685" height="214" key="GridCell.Tab.0.bottom" timestamp="1612546666009">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1370" height="239" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1612480013510" />
-    <state width="1370" height="239" key="GridCell.Tab.0.center" timestamp="1612480013510">
+    <state width="685" height="214" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1612546666009" />
+    <state width="685" height="214" key="GridCell.Tab.0.center" timestamp="1612546666009">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1370" height="239" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1612480013510" />
-    <state width="1370" height="239" key="GridCell.Tab.0.left" timestamp="1612480013510">
+    <state width="685" height="214" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1612546666009" />
+    <state width="685" height="214" key="GridCell.Tab.0.left" timestamp="1612546666009">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1370" height="239" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1612480013510" />
-    <state width="1370" height="239" key="GridCell.Tab.0.right" timestamp="1612480013510">
+    <state width="685" height="214" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1612546666009" />
+    <state width="685" height="214" key="GridCell.Tab.0.right" timestamp="1612546666009">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1370" height="239" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1612480013510" />
-    <state width="685" height="214" key="GridCell.Tab.1.bottom" timestamp="1612297716169">
+    <state width="685" height="214" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1612546666009" />
+    <state width="685" height="214" key="GridCell.Tab.1.bottom" timestamp="1612546666009">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="685" height="214" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1612297716169" />
-    <state width="685" height="214" key="GridCell.Tab.1.center" timestamp="1612297716169">
+    <state width="685" height="214" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1612546666009" />
+    <state width="685" height="214" key="GridCell.Tab.1.center" timestamp="1612546666009">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="685" height="214" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1612297716169" />
-    <state width="685" height="214" key="GridCell.Tab.1.left" timestamp="1612297716169">
+    <state width="685" height="214" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1612546666009" />
+    <state width="685" height="214" key="GridCell.Tab.1.left" timestamp="1612546666009">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="685" height="214" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1612297716169" />
-    <state width="685" height="214" key="GridCell.Tab.1.right" timestamp="1612297716169">
+    <state width="685" height="214" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1612546666009" />
+    <state width="685" height="214" key="GridCell.Tab.1.right" timestamp="1612546666009">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="685" height="214" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1612297716169" />
-    <state x="255" y="0" key="SettingsEditor" timestamp="1612216105078">
+    <state width="685" height="214" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1612546666009" />
+    <state x="255" y="0" key="SettingsEditor" timestamp="1612546657272">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="255" y="0" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1612216105078" />
-    <state x="495" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1611180154280">
+    <state x="255" y="0" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1612546657272" />
+    <state x="495" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1612546934692">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="495" y="252" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1611180154280" />
+    <state x="495" y="252" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1612546934692" />
     <state x="480" y="316" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1611633524785">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
