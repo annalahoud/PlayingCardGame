@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
-      <profile name="Annotation profile for PlayingCardGame" enabled="true">
+      <profile name="Annotation profile for PlayingCardGame">
         <sourceOutputDir name="$PROJECT_DIR$/target/generated-sources/annotations" />
         <sourceTestOutputDir name="$PROJECT_DIR$/target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -12,5 +12,10 @@
     <bytecodeTargetLevel target="8">
       <module name="PlayingCards" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="PlayingCards" options="" />
+    </option>
   </component>
 </project>

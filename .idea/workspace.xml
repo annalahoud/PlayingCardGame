@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bed150bd-d9ab-4ad7-8d2d-6dacf2576767" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_processor_unknown.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PlayingCards.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PlayingCards.iml" afterDir="false" />
     </list>
@@ -74,7 +71,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -313,14 +310,14 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="685" height="214" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1612546666009" />
-    <state x="255" y="0" key="SettingsEditor" timestamp="1612546657272">
+    <state x="255" y="0" key="SettingsEditor" timestamp="1613526206237">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="255" y="0" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1612546657272" />
-    <state x="495" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1612546934692">
+    <state x="255" y="0" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1613526206237" />
+    <state x="495" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1613080474120">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="495" y="252" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1612546934692" />
+    <state x="495" y="252" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1613080474120" />
     <state x="480" y="316" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1611633524785">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
